@@ -1,6 +1,6 @@
 ## ** EKS Monitoring Stack Setup (Prometheus + Grafana + Metrics Server) **
 
-** This guide walks you through setting up a full monitoring stack (Prometheus, Grafana, and Metrics Server) on an Amazon EKS cluster using Helm. **
+This guide walks you through setting up a full monitoring stack (Prometheus, Grafana, and Metrics Server) on an Amazon EKS cluster using Helm. 
 
 ## 📦 Prerequisites
 
@@ -26,7 +26,7 @@ eksctl delete cluster --name britt-cluster1 --region us-east-1
 ---
 
 ## ** Download and install Helm **
-- curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
 
 ### Give execute permission
 - chmod 700 get_helm.sh
