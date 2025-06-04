@@ -90,5 +90,5 @@ monitoring-kube-prometheus-prometheus
 -Grafana URL : LBR-DNS/
 
 ### NOTE
--Prometheus runs on port 9090
--Grafana runs on port 80
+- Prometheus runs on port 9090
+- Grafana runs on port 80
