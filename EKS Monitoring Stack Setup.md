@@ -5,9 +5,9 @@ This guide walks you through setting up a full monitoring stack (Prometheus, Gra
 ## 📦 Prerequisites
 
 - AWS CLI configured
-- `eksctl` installed
-- `kubectl` installed
-- `helm` installed
+- eksctl installed
+- kubectl installed
+- helm installed
 
 ---
 
